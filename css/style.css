@@ -1,0 +1,170 @@
+
+/*==== navigation section ======*/
+.navbar{
+    background: #000;
+}
+.nav-item{
+    padding-left: 1em;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+
+/*==== carousel section =====*/
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-img-2{
+    background: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-img-3{
+    background: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-img-4{
+    background: url(../img/img4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#homeicon .fa{
+    font-size: 50px;
+}
+
+/*======= get started section ======*/
+#getstarted{
+    position: relative;
+    background: url(../img/desktop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+#getstarted .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+/*====== home video section =======*/
+#home-video{
+    position: relative;
+    background: url(../img/homevideo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+#home-video .dark-overlay-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+#home-video .fa{
+    font-size: 60px;
+}
+#home-video h2{
+    color: #fff;
+}
+
+/*==== gallery section =====*/
+#gallery img{
+    min-height: 250px;
+}
+/*==== copyright section =====*/
+#copyright{
+   background: #000;
+}
+
+/*======= about page =======*/
+#page-header{
+    background: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 280px;
+}
+#page-header .col h2{
+    color: #fff;
+}
+#about-info img{
+    width: 350px;
+    height: 350px;
+}
+#icon-boxes .fa{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before{
+    color: #000;
+}
+
+/*======= services page =========*/
+#services-page-header{
+    background: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 280px;
+}
+#services-page-header .col h2{
+    color: #fff;
+}
+
+/*====== blog page ======*/
+#blog-page-header{
+    background: url(../img/img4.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 280px;
+}
+#blog-page-header .col h2{
+    color: #fff;
+}
+
+/*====== contact page ======*/
+#contact-page-header{
+    background: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 280px;
+}
+#contact-page-header .col h2{
+    color: #fff;
+}
+
+
+@media screen and (max-width:767px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+}
+@media screen and (max-width:480px){
+    .carousel-item h2{
+        font-size: 2.5rem;
+    }
+    #getstarted{
+        min-height: 350px;
+    }
+}
